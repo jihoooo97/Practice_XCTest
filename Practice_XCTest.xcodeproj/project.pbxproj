@@ -14,6 +14,8 @@
 		1365C1362C65A44D006BF19A /* Practice_XCTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1365C1352C65A44D006BF19A /* Practice_XCTestUITests.swift */; };
 		137E7E622C68B46700AFF8C7 /* StrangeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137E7E612C68B46700AFF8C7 /* StrangeCalculatorTests.swift */; };
 		137E7E642C690E7500AFF8C7 /* StrangeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137E7E632C690E7500AFF8C7 /* StrangeCalculator.swift */; };
+		138D67DE2C699E7900702C47 /* LottoMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D67DD2C699E7900702C47 /* LottoMachine.swift */; };
+		138D67E02C699F9B00702C47 /* LottoMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D67DF2C699F9B00702C47 /* LottoMachineTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		1365C1352C65A44D006BF19A /* Practice_XCTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_XCTestUITests.swift; sourceTree = "<group>"; };
 		137E7E612C68B46700AFF8C7 /* StrangeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeCalculatorTests.swift; sourceTree = "<group>"; };
 		137E7E632C690E7500AFF8C7 /* StrangeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeCalculator.swift; sourceTree = "<group>"; };
+		138D67DD2C699E7900702C47 /* LottoMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMachine.swift; sourceTree = "<group>"; };
+		138D67DF2C699F9B00702C47 /* LottoMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottoMachineTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,9 +108,10 @@
 		1365C12A2C65A44D006BF19A /* Practice_XCTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				138D67DC2C699E5E00702C47 /* Mock */,
 				1365C12B2C65A44D006BF19A /* Practice_XCTestTests.swift */,
 				137E7E612C68B46700AFF8C7 /* StrangeCalculatorTests.swift */,
-				137E7E632C690E7500AFF8C7 /* StrangeCalculator.swift */,
+				138D67DF2C699F9B00702C47 /* LottoMachineTests.swift */,
 			);
 			path = Practice_XCTestTests;
 			sourceTree = "<group>";
@@ -141,6 +146,15 @@
 				1365C11C2C65A44C006BF19A /* ContentView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		138D67DC2C699E5E00702C47 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				137E7E632C690E7500AFF8C7 /* StrangeCalculator.swift */,
+				138D67DD2C699E7900702C47 /* LottoMachine.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				138D67DE2C699E7900702C47 /* LottoMachine.swift in Sources */,
+				138D67E02C699F9B00702C47 /* LottoMachineTests.swift in Sources */,
 				137E7E622C68B46700AFF8C7 /* StrangeCalculatorTests.swift in Sources */,
 				1365C12C2C65A44D006BF19A /* Practice_XCTestTests.swift in Sources */,
 				137E7E642C690E7500AFF8C7 /* StrangeCalculator.swift in Sources */,
