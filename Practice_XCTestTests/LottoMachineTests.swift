@@ -6,6 +6,7 @@
 //
 
 import XCTest
+@testable import Practice_XCTest
 
 final class LottoMachineTests: XCTestCase {
 

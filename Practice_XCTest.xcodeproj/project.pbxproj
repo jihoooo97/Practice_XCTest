@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132366582C6B48EF00F3E166 /* StrangeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137E7E632C690E7500AFF8C7 /* StrangeCalculator.swift */; };
+		132366592C6B48F200F3E166 /* LottoMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D67DD2C699E7900702C47 /* LottoMachine.swift */; };
+		1323665B2C6B490E00F3E166 /* UpDownGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323665A2C6B490E00F3E166 /* UpDownGame.swift */; };
+		1323665D2C6B49A700F3E166 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323665C2C6B49A700F3E166 /* URLSessionProtocol.swift */; };
+		132366602C6B49F000F3E166 /* StubURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323665F2C6B49F000F3E166 /* StubURLSession.swift */; };
+		132366622C6B4A0400F3E166 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132366612C6B4A0400F3E166 /* DummyData.swift */; };
+		132366642C6B4A9100F3E166 /* UpDownGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132366632C6B4A9000F3E166 /* UpDownGameTests.swift */; };
 		1365C11B2C65A44C006BF19A /* Practice_XCTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1365C11A2C65A44C006BF19A /* Practice_XCTestApp.swift */; };
 		1365C11D2C65A44C006BF19A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1365C11C2C65A44C006BF19A /* ContentView.swift */; };
 		1365C11F2C65A44D006BF19A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1365C11E2C65A44D006BF19A /* Assets.xcassets */; };
 		1365C12C2C65A44D006BF19A /* Practice_XCTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1365C12B2C65A44D006BF19A /* Practice_XCTestTests.swift */; };
 		1365C1362C65A44D006BF19A /* Practice_XCTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1365C1352C65A44D006BF19A /* Practice_XCTestUITests.swift */; };
 		137E7E622C68B46700AFF8C7 /* StrangeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137E7E612C68B46700AFF8C7 /* StrangeCalculatorTests.swift */; };
-		137E7E642C690E7500AFF8C7 /* StrangeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137E7E632C690E7500AFF8C7 /* StrangeCalculator.swift */; };
-		138D67DE2C699E7900702C47 /* LottoMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D67DD2C699E7900702C47 /* LottoMachine.swift */; };
 		138D67E02C699F9B00702C47 /* LottoMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D67DF2C699F9B00702C47 /* LottoMachineTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1323665A2C6B490E00F3E166 /* UpDownGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownGame.swift; sourceTree = "<group>"; };
+		1323665C2C6B49A700F3E166 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		1323665F2C6B49F000F3E166 /* StubURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubURLSession.swift; sourceTree = "<group>"; };
+		132366612C6B4A0400F3E166 /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		132366632C6B4A9000F3E166 /* UpDownGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownGameTests.swift; sourceTree = "<group>"; };
+		132366662C6B54EB00F3E166 /* Practice-XCTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Practice-XCTest-Info.plist"; sourceTree = SOURCE_ROOT; };
 		1365C1172C65A44C006BF19A /* Practice_XCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice_XCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1365C11A2C65A44C006BF19A /* Practice_XCTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Practice_XCTestApp.swift; sourceTree = "<group>"; };
 		1365C11C2C65A44C006BF19A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1323665E2C6B49B100F3E166 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				132366612C6B4A0400F3E166 /* DummyData.swift */,
+				1323665C2C6B49A700F3E166 /* URLSessionProtocol.swift */,
+				1323665F2C6B49F000F3E166 /* StubURLSession.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		1365C10E2C65A44C006BF19A = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +119,11 @@
 		1365C1192C65A44C006BF19A /* Practice_XCTest */ = {
 			isa = PBXGroup;
 			children = (
+				132366662C6B54EB00F3E166 /* Practice-XCTest-Info.plist */,
 				1365C1442C65A5DD006BF19A /* App */,
+				1323665E2C6B49B100F3E166 /* Network */,
 				1365C1462C65A5F1006BF19A /* View */,
+				138D67DC2C699E5E00702C47 /* Mock */,
 				1365C1452C65A5E4006BF19A /* Resources */,
 			);
 			path = Practice_XCTest;
@@ -108,10 +132,10 @@
 		1365C12A2C65A44D006BF19A /* Practice_XCTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				138D67DC2C699E5E00702C47 /* Mock */,
 				1365C12B2C65A44D006BF19A /* Practice_XCTestTests.swift */,
 				137E7E612C68B46700AFF8C7 /* StrangeCalculatorTests.swift */,
 				138D67DF2C699F9B00702C47 /* LottoMachineTests.swift */,
+				132366632C6B4A9000F3E166 /* UpDownGameTests.swift */,
 			);
 			path = Practice_XCTestTests;
 			sourceTree = "<group>";
@@ -153,6 +177,7 @@
 			children = (
 				137E7E632C690E7500AFF8C7 /* StrangeCalculator.swift */,
 				138D67DD2C699E7900702C47 /* LottoMachine.swift */,
+				1323665A2C6B490E00F3E166 /* UpDownGame.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -286,8 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132366622C6B4A0400F3E166 /* DummyData.swift in Sources */,
+				1323665D2C6B49A700F3E166 /* URLSessionProtocol.swift in Sources */,
+				132366592C6B48F200F3E166 /* LottoMachine.swift in Sources */,
+				1323665B2C6B490E00F3E166 /* UpDownGame.swift in Sources */,
 				1365C11D2C65A44C006BF19A /* ContentView.swift in Sources */,
 				1365C11B2C65A44C006BF19A /* Practice_XCTestApp.swift in Sources */,
+				132366602C6B49F000F3E166 /* StubURLSession.swift in Sources */,
+				132366582C6B48EF00F3E166 /* StrangeCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +326,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				138D67DE2C699E7900702C47 /* LottoMachine.swift in Sources */,
 				138D67E02C699F9B00702C47 /* LottoMachineTests.swift in Sources */,
 				137E7E622C68B46700AFF8C7 /* StrangeCalculatorTests.swift in Sources */,
+				132366642C6B4A9100F3E166 /* UpDownGameTests.swift in Sources */,
 				1365C12C2C65A44D006BF19A /* Practice_XCTestTests.swift in Sources */,
-				137E7E642C690E7500AFF8C7 /* StrangeCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +487,7 @@
 				DEVELOPMENT_TEAM = 3LTN66N935;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Practice-XCTest-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -491,6 +522,7 @@
 				DEVELOPMENT_TEAM = 3LTN66N935;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Practice-XCTest-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
