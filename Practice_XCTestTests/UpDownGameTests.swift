@@ -98,7 +98,7 @@ final class UpDownGameTests: XCTestCase {
         wait(for: [promise], timeout: 10)
     }
     
-    func test_reset호_tryCountIs0() {
+    func test_reset_tryCountIs0() {
         // given
         let promise = expectation(description: "try count is 0")
         sut.tryCount = 10

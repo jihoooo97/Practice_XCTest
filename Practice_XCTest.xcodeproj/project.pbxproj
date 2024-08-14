@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131B48EB2C6D102D0062876A /* StubURLSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131B48EA2C6D102D0062876A /* StubURLSessionTests.swift */; };
 		132366582C6B48EF00F3E166 /* StrangeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137E7E632C690E7500AFF8C7 /* StrangeCalculator.swift */; };
 		132366592C6B48F200F3E166 /* LottoMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138D67DD2C699E7900702C47 /* LottoMachine.swift */; };
 		1323665B2C6B490E00F3E166 /* UpDownGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1323665A2C6B490E00F3E166 /* UpDownGame.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		131B48EA2C6D102D0062876A /* StubURLSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubURLSessionTests.swift; sourceTree = "<group>"; };
 		1323665A2C6B490E00F3E166 /* UpDownGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpDownGame.swift; sourceTree = "<group>"; };
 		1323665C2C6B49A700F3E166 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
 		1323665F2C6B49F000F3E166 /* StubURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubURLSession.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				137E7E612C68B46700AFF8C7 /* StrangeCalculatorTests.swift */,
 				138D67DF2C699F9B00702C47 /* LottoMachineTests.swift */,
 				132366632C6B4A9000F3E166 /* UpDownGameTests.swift */,
+				131B48EA2C6D102D0062876A /* StubURLSessionTests.swift */,
 			);
 			path = Practice_XCTestTests;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				131B48EB2C6D102D0062876A /* StubURLSessionTests.swift in Sources */,
 				138D67E02C699F9B00702C47 /* LottoMachineTests.swift in Sources */,
 				137E7E622C68B46700AFF8C7 /* StrangeCalculatorTests.swift in Sources */,
 				132366642C6B4A9100F3E166 /* UpDownGameTests.swift in Sources */,
