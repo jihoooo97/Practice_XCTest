@@ -13,4 +13,8 @@ class StrangeCalculator {
         return numbers.reduce(0, +)
     }
     
+    func addOddNumbers(of numbers: [UInt]) -> UInt {
+        return numbers.filter { $0 % 2 == 1 }.reduce(0, +)
+    }
+    
 }
